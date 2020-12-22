@@ -1,0 +1,52 @@
+#monthStyle{
+	font-family: Snell Roundhand, cursive;
+	background-color: pink;
+	font-size: 40px;
+}
+
+#arrowStyle{
+	background-color: pink;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.greyed-out{
+	pointer-events: none;
+	cursor: not-allowed;
+	font-family: Times;
+	font-size: 18px;
+	color: Silver;
+}
+
+.active-date{
+   background-color: white;
+   cursor:pointer;
+   font-family: Times;
+   font-size: 18px;
+}
+
+.active-date:hover{
+	border: 2px solid pink;
+	border-radius: 10px;
+}
+
+.today{
+	background-color: lightcyan;
+	font-family: Times;
+	font-size: 18px;
+	border-radius: 50 px;
+}
+
+table, td {
+    text-align: center;
+    background: white;    
+    cursor: default;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+
+td{
+	font-family: Snell Roundhand, cursive;
+	font-size: 25px;
+}
